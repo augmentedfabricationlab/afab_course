@@ -7,7 +7,7 @@ This repository contains teaching material.
 ## Rhino/Grasshopper Basics
 * Simple Design Algorithms (?)
 
-## Roboter Basics
+## Robot Basics
 * Frame and Transformation
 * Kinematics and Robot Model
 * Process Control
