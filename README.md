@@ -11,7 +11,7 @@ This repository contains teaching material.
 * Frame and Transformation
 * Kinematics and Robot Model
 * Process Control
-* Basic Workflow
+* Basic Workflow (Workobject, Endeffector, e.g.)
 
 ## Robotic Fabrication Basics
 * Assembly/Pick and Place
