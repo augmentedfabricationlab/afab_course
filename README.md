@@ -1,5 +1,15 @@
+
+
 # Teaching materials
 This repository contains teaching material.
+
+# Dependencies
+* Anaconda/Python
+* jupyter (with extensions rise and split cell)
+* compas
+* compas_fab
+* meshcat
+* webcolors
 
 ## Python Basics
 * Variable, List, Dictionaries, Classes, Conditionals and Loops
