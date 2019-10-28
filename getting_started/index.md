@@ -27,6 +27,7 @@ And install COMPAS_fab with:
     conda install -c conda-forge compas_fab
     
 For more info about COMPAS follow this [link](https://compas-dev.github.io/).
+
 For more info about COMPAS_fab follow this [link](https://gramaziokohler.github.io/compas_fab/latest/).
 
 ### 2. Setting up jupyter and extensions
