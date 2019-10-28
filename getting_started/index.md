@@ -72,6 +72,15 @@ COMPAS_fab
 Three JS
 
     conda install -c conda-forge pythreejs
+    
+
+### 4. Setting up the Rhino/Grasshopper Environment
+
+see also this [link](https://compas-dev.github.io/main/gettingstarted/cad/rhino.html)
+
+Installing COMPAS for Rhino is very simple. Just type the following on the command line
+
+    $ python -m compas_rhino.install
 
 
 
