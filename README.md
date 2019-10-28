@@ -35,14 +35,12 @@ Week | Date | Title | Description | Links
 
 
 # Dependencies
+
 * Windows 10
 * Rhino 6 / Grasshopper
-* Anaconda Python
-* Jupyter (with extensions rise and split cell)
-* COMPAS
-* COMPAS_fab
-* meshcat
-* webcolors
+* [Anaconda Python](https://www.anaconda.com/distribution/?gclid=CjwKCAjwo9rtBRAdEiwA_WXcFoyH8v3m-gVC55J6YzR0HpgB8R-PwM-FClIIR1bIPYZXsBtbPRfJ8xoC6HsQAvD_BwE)
+* [COMPAS](https://compas-dev.github.io/)
+* [COMPAS_fab](https://gramaziokohler.github.io/compas_fab/latest/)
 
 ## Jupyter and extensions
 
