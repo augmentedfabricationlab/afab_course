@@ -89,6 +89,6 @@ Install the following extensions:
 
 Three JS
 
-    conda install -c r r-threejs
+    conda install -c conda-forge pythreejs
     
     
