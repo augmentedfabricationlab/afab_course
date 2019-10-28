@@ -12,7 +12,7 @@
 
 Execute the commands below in Anaconda Prompt (run as Administrator):
 
-    conda create -n afab19 python=3.6 COMPAS=0.8.1 --yes
+    conda create -n afab19 python=3.6 COMPAS=0.9 --yes
 
 Then continue with activating the environment:
 
