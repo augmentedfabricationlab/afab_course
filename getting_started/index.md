@@ -14,6 +14,10 @@ Execute the commands below in Anaconda Prompt (run as Administrator):
 
     conda create -n afab19 python=3.6 COMPAS=0.10.0 --yes
 
+Add conda-forge to the list of channels where conda looks for packages.
+
+	conda config --add channels conda-forge
+
 Then continue with activating the environment:
 
     conda activate afab19
@@ -71,10 +75,6 @@ COMPAS_fab
 Three JS
 
     conda install -c conda-forge pythreejs
-    
-Optionally: Updating COMPAS
-    
-    conda install compas=0.10.0
     
 
 ### 4. Setting up the Rhino/Grasshopper Environment
