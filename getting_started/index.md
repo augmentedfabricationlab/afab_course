@@ -80,6 +80,11 @@ Three JS
 
     conda install -c conda-forge pythreejs
     
+Updating to the latest COMPAS:
+
+     conda install compas=0.10.0
+	
+    
 
 ### 4. Setting up the Rhino/Grasshopper Environment
 
