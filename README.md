@@ -84,5 +84,11 @@ Install the following extensions:
 1. Split Cells Notebook - Enable split cells in Jupyter notebooks
 
 2. [RISE](https://rise.readthedocs.io/en/stable/installation.html#) - allows you to instantly turn your Jupyter Notebooks into a slideshow
+
+### Python Dependencies
+
+* Threejs
+    
+    conda install -c r r-threejs
     
     
