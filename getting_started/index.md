@@ -1,6 +1,6 @@
 ## Getting started
 
-### Setting up the Anaconda environment
+### 1. Setting up the Anaconda environment
 
 Execute the commands below in Anaconda Prompt (run as Administrator):
 
