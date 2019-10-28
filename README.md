@@ -76,10 +76,13 @@ To install nbextensions, execute the commands below in Anaconda Prompt (run as A
 
     conda install -c conda-forge jupyter_contrib_nbextensions
     conda install -c conda-forge jupyter_nbextensions_configurator
+    conda install -c conda-forge rise
 
 After installing, restart the Jupyter notebook, and you can observe a new tab Nbextensions added to the menu, last entry under "Edit".
 Install the following extensions:
 
 1. Split Cells Notebook - Enable split cells in Jupyter notebooks
 
-2. RISE - allows you to instantly turn your Jupyter Notebooks into a slideshow.
+2. [RISE](https://rise.readthedocs.io/en/stable/installation.html#) - allows you to instantly turn your Jupyter Notebooks into a slideshow
+    
+    
