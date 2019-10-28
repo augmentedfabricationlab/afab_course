@@ -72,7 +72,7 @@ If you want jupyter to open in a different directory, then change the following 
 
 ### Download nbextensions
 
-To install nbextensions, execute the commands below in Anaconda Prompt:
+To install nbextensions, execute the commands below in Anaconda Prompt (run as Administrator):
 
     conda install -c conda-forge jupyter_contrib_nbextensions
     conda install -c conda-forge jupyter_nbextensions_configurator
