@@ -53,7 +53,6 @@ If you want jupyter to open in a different directory, then change the following 
 To install nbextensions, execute the commands below in Anaconda Prompt (run as Administrator):
 
     conda install -c conda-forge jupyter_contrib_nbextensions
-    conda install -c conda-forge jupyter_nbextensions_configurator
     conda install -c conda-forge rise
 
 After installing, restart the Jupyter notebook, and you can observe a new tab Nbextensions added to the menu, last entry under "Edit".
@@ -79,6 +78,7 @@ Three JS
 see also this [link](https://compas-dev.github.io/main/gettingstarted/cad/rhino.html)
 
 Installing COMPAS for Rhino is very simple. Just type the following on Anaconda prompt:
+    
     python -m compas_rhino.install
     python -m compas_rhino.install -p compas_fab
 
