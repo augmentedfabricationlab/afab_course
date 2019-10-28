@@ -28,9 +28,9 @@ The topics will include:
 ## Schedule
 
 Week | Date | Title | Description | Links
----- | ---- | ---- | ----- | ----------- | -------
-1 | Oct 29 | Introduction | Course overview, COMPAS intro, UR10 intro |
-2 | Nov 6 | Introduction | Python basics |
+---- | ---- | ---- | ----- | -----------
+1 | Oct 29 | Introduction | Course overview, COMPAS intro, UR10 intro | .
+2 | Nov 6 | Introduction | Python basics | .
 
 
 
