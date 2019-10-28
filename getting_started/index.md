@@ -18,7 +18,7 @@ Then continue with activating the environment:
 
     conda activate afab19
 
-### Jupyter and extensions
+### 2. Setting up jupyter and extensions
 
 Install jupyter for the afab19 environment:
 
@@ -30,7 +30,7 @@ To run the jupyter notebook, you simply have to type:
 
 in your command line.
 
-### Configure workspace
+#### Configure jupyter workspace
 
 To configure the workspace, type
 
@@ -63,7 +63,7 @@ Install the following extensions:
 
 2. [RISE](https://rise.readthedocs.io/en/stable/installation.html#) - allows you to instantly turn your Jupyter Notebooks into a slideshow
 
-### Python Dependencies
+### 3. Python Dependencies
 
 Three JS
 
