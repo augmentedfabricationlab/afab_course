@@ -54,6 +54,10 @@ If you want jupyter to open in a different directory, then change the following 
 
 ### Download nbextensions
 
+Activate the afab19 environment:
+
+    conda activate afab19
+
 To install nbextensions, execute the commands below in Anaconda Prompt (run as Administrator):
 
     conda install -c conda-forge jupyter_contrib_nbextensions
