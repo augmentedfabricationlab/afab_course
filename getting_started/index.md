@@ -10,13 +10,13 @@
 
 ### 1. Setting up the Anaconda environment
 
-Execute the commands below in Anaconda Prompt (run as Administrator):
-
-    conda create -n afab19 python=3.6 COMPAS=0.10.0 --yes
-
 Add conda-forge to the list of channels where conda looks for packages.
 
 	conda config --add channels conda-forge
+
+Execute the commands below in Anaconda Prompt (run as Administrator):
+
+    conda create -n afab19 python=3.6 COMPAS=0.10.0 --yes
 
 Then continue with activating the environment:
 
