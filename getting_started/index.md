@@ -5,10 +5,10 @@
 * Windows 10
 * Rhino 6 / Grasshopper
 * [Anaconda Python](https://www.anaconda.com/distribution/?gclid=CjwKCAjwo9rtBRAdEiwA_WXcFoyH8v3m-gVC55J6YzR0HpgB8R-PwM-FClIIR1bIPYZXsBtbPRfJ8xoC6HsQAvD_BwE)
-* [COMPAS](https://compas-dev.github.io/)
-* [COMPAS_fab](https://gramaziokohler.github.io/compas_fab/latest/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Github Desktop](https://desktop.github.com/)
 
-### 1. Setting up the Anaconda environment
+### 1. Setting up the Anaconda environment with COMPAS and COMPAS_fab
 
 Add conda-forge to the list of channels where conda looks for packages.
 
@@ -21,6 +21,13 @@ Execute the commands below in Anaconda Prompt (run as Administrator):
 Then continue with activating the environment:
 
     conda activate afab19
+    
+And install COMPAS_fab with:
+
+    conda install -c conda-forge compas_fab
+    
+For more info about COMPAS follow this [link](https://compas-dev.github.io/).
+For more info about COMPAS_fab follow this [link](https://gramaziokohler.github.io/compas_fab/latest/).
 
 ### 2. Setting up jupyter and extensions
 
@@ -66,11 +73,7 @@ Install the following extensions:
 
 2. [RISE](https://rise.readthedocs.io/en/stable/installation.html#) - allows you to instantly turn your Jupyter Notebooks into a slideshow
 
-### 3. Python Dependencies
-
-COMPAS_fab
-
-    conda install -c conda-forge compas_fab
+### 3. Additional Python Dependencies
 
 Three JS
 
