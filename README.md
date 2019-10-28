@@ -77,7 +77,7 @@ To install nbextensions, execute the commands below in Anaconda Prompt (run as A
     conda install -c conda-forge jupyter_contrib_nbextensions
     conda install -c conda-forge jupyter_nbextensions_configurator
 
-After installing, restart the Jupyter notebook, and you can observe a new tab Nbextensions added to the menu.
+After installing, restart the Jupyter notebook, and you can observe a new tab Nbextensions added to the menu, last entry under "Edit".
 Install the following extensions:
 
 1. Split Cells Notebook - Enable split cells in Jupyter notebooks
