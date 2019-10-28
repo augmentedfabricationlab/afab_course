@@ -1,49 +1,87 @@
+# AFAB Seminar
+
+*Basics of Robotic Fabrication*
+
+## Description
+
+The Master-level course will introduce computational methods for architecture engineering, fabrication & construction, incentivising computational literacy. Students learn the theoretical background and basic implementation details of fundamental data structures and algorithms, and to solve real-world problems using the COMPAS and COMPAS_fab framework, and other open-source libraries.
+
+## Learning objectives
+
+* understand the scope and relevance of computational methods for architecture and engineering research and practice,
+* the theoretical background of fundamental data structures, 
+* the basic principles of algorithmic design; 
+* implement basic versions of prevalent algorithms related to architectural geometry and robotic assembly; and
+* use common CAD tools as interfaces to self-implemented solutions.
+
+## Overview
+
+This course will consist of a few lectures, several tutorials and project-based exercises.
+
+The topics will include:
+
+* Intro Python programming
+* Intro COMPAS open-source framework (https://compas-dev.github.io/) 
+* Intro to geometry processing, data structures, topology, numerical computation
+* Domain-specific case studies (i.e., on architectural geometry, robotic assembly)
+
+## Schedule
+
+Week | Date | Title | Description | Links
+---- | ---- | ---- | ----- | ----------- | -------
+1 | Oct 29 | Introduction | Course overview, COMPAS intro, UR10 intro |
+2 | Nov 6 | Introduction | Python basics |
 
 
-# Teaching materials
-This repository contains teaching material.
 
 # Dependencies
-* Anaconda/Python
-* jupyter (with extensions rise and split cell)
-* compas
-* compas_fab
+* Windows 10
+* Rhino 6 / Grasshopper
+* Anaconda Python
+* Jupyter (with extensions rise and split cell)
+* COMPAS
+* COMPAS_fab
 * meshcat
 * webcolors
 
-## Python Basics
-* Variable, List, Dictionaries, Classes, Conditionals and Loops
+## Jupyter and extensions
 
-## Rhino/Grasshopper Basics
-* Simple Design Algorithms (?)
+If you have Anaconda installed, then jupyter is already installed. If not, then install jupyter with pip.
 
-## Robot Basics
-* Frame and Transformation
-* Kinematics and Robot Model
-* Process Control
-* Basic Workflow (Workobject, Endeffector, e.g.)
+To run the jupyter notebook, you simply have to type:
 
-## Robotic Fabrication Basics
-* Assembly/Pick and Place
-* Top down approach, e.g. brick wall
-* Bottom up approach, e.g. growth algorithm
+    jupyter notebook
 
+in your command line.
 
-====================================================================
-## Notebook Generative Design (optional)
-* L-systems (text and drawing)
-* shape grammars
-* polygon subdivision
-* cellular automata
-* shortest path calculation
-* dense polyomino packing
-* biomorphs (genetic algorithms, after Dawkins' Blind Watchmaker)
-* more evolutionary strategies (hill climbing, simulated annealing, …)
-* introduction to machine learning (iris classification, image classification with fashion MNIST
-* more advanced ML: pix2pix image generation, variational auto-encoders with the quickdraw sketch dataset (remember the cats?), reinforcement learning for the inverted pendulum/cart pole
+### Configure workspace
 
+To configure the workspace, type
 
+    jupyter notebook --generate-config
 
+This writes a default configuration file into:
 
+`%HOMEPATH%\.jupyter\jupyter_notebook_config.py` (on windows)
 
+or
 
+`~/.jupyter/jupyter_notebook_config.py` (on mac)
+
+If you want jupyter to open in a different directory, then change the following line:
+
+    c.NotebookApp.notebook_dir = 'YOUR_PREFERRED_PATH'
+
+### Download nbextensions
+
+To install nbextensions, execute the commands below in Anaconda Prompt:
+
+    conda install -c conda-forge jupyter_contrib_nbextensions
+    conda install -c conda-forge jupyter_nbextensions_configurator
+
+After installing, restart the Jupyter notebook, and you can observe a new tab Nbextensions added to the menu.
+Install the following extensions:
+
+1. Split Cells Notebook - Enable split cells in Jupyter notebooks
+
+2. RISE - allows you to instantly turn your Jupyter Notebooks into a slideshow.
