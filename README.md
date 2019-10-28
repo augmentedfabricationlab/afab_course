@@ -87,10 +87,7 @@ Install the following extensions:
 
 ### Python Dependencies
 
-* Threejs
-
-    conda install -c conda-forge rise
-    conda install -c conda-forge rise
+Three JS
 
     conda install -c r r-threejs
     
