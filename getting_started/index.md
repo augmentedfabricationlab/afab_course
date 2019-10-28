@@ -65,6 +65,10 @@ Install the following extensions:
 
 ### 3. Python Dependencies
 
+COMPAS_fab
+
+    conda install -c conda-forge compas_fab
+
 Three JS
 
     conda install -c conda-forge pythreejs
