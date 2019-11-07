@@ -18,7 +18,7 @@ Execute the commands below in Anaconda Prompt (run as Administrator):
 
     conda create -n afab19 python=3.6 COMPAS=0.8.1 --yes
     
-(--> If you run into problems with the PIL library, run instead:)
+Alternatively: If you run into problems with the PIL library, run instead:
 
 	create -n afab19 python=3.6 COMPAS=0.8.1 matplotlib=3.0 --yes
 
