@@ -29,7 +29,12 @@ The topics will include:
 
 Week | Date | Title | Description | Links
 ---- | ---- | ---- | ----- | -----------
-1 | Oct 29 | Introduction | Course overview, COMPAS intro, UR10 intro | .
+1 | Oct 29 | Introduction | Course overview, COMPAS intro | .
 2 | Nov 6 | Introduction | Python basics | .
+3 | Nov 20 | Introduction | UR10 robots | .
+
+## Environment setup
+
+Please set up your Python environment following these [instructions](getting_started/index.md).
     
     
