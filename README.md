@@ -31,7 +31,7 @@ Week | Date | Title | Description | Links
 ---- | ---- | ---- | ----- | -----------
 1 | Oct 29 | Introduction | Course overview, COMPAS intro | .
 2 | Nov 6 | Introduction | Python basics | .
-3 | Nov 20 | Introduction | UR10 robots | .
+3 | Nov 20 | Introduction | UR10 robots introduction | .
 
 ## Environment setup
 
