@@ -35,6 +35,6 @@ Week | Date | Title | Description | Links
 
 ## Environment setup
 
-Please set up your Python environment following these [instructions](getting_started/index.md).
+Please set up your Python environment following these [instructions](01_getting_started/index.md).
     
     
