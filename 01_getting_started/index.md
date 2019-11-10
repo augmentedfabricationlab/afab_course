@@ -97,8 +97,7 @@ see also this [link](https://compas-dev.github.io/main/gettingstarted/cad/rhino.
 Installing COMPAS for Rhino is very simple. Just type the following on Anaconda prompt:
     
     python -m compas_rhino.install
-    python -m compas_rhino.install -p compas_fab
-
+    python -m compas_fab.rhino.install
 
 
 
