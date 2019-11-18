@@ -10,7 +10,7 @@ from compas_fab.robots import CollisionMesh
 from compas_fab.robots import PlanningScene
 from compas_fab.robots.ur5 import Robot
 
-with RosClient() as client:
+with RosClient('localhost') as client:
     robot = Robot(client)
 
     scene = PlanningScene(robot)
