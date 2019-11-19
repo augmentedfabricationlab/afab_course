@@ -4,9 +4,7 @@ In this **Robotic Fabrication Intro** session, we will get to know the [ur_onlin
 
 ## Installation:
 
-Please follow these instructions 
-[ur_online_control repository](https://github.com/augmentedfabricationlab/ur_online_control) 
-for setting up your environment.
+Please follow [these instructions](https://github.com/augmentedfabricationlab/ur_online_control) for setting up your environment.
 
 ## Slides
 
