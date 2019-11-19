@@ -8,8 +8,7 @@ Please follow these instructions
 [ur_online_control repository](https://github.com/augmentedfabricationlab/ur_online_control) 
 for setting up your environment.
 
-## Examples
+## Slides
 
-* **Slides**: [link](https://docs.google.com/presentation/d/19nUD1BtVVD-lCfMlRHDrsk5dOtg0pKxJBh61wjs6fZQ/edit?usp=sharing)
-* **Assignments**: [link](assignments/README.md)
+[link](https://docs.google.com/presentation/d/19nUD1BtVVD-lCfMlRHDrsk5dOtg0pKxJBh61wjs6fZQ/edit?usp=sharing)
 
