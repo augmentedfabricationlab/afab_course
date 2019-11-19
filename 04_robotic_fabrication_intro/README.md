@@ -1,6 +1,6 @@
 # Robotic Fabrication Intro
 
-In this `Robotic Fabrication Intro` session, we will get to know the [ur_online_control](https://github.com/augmentedfabricationlab/ur_online_control) library for using the UR10e robot set-up of `afab`.
+In this **Robotic Fabrication Intro** session, we will get to know the [ur_online_control](https://github.com/augmentedfabricationlab/ur_online_control) library for using the UR10e robot set-up of **afab**.
 
 ## Installation:
 
