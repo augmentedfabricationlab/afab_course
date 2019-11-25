@@ -1,41 +1,33 @@
-# Robotic Fabrication Basics using COMPAS FAB
+# Module 2
 
-## Compas Fab Installation
+In this **Robotic Fabrication Basics** sessions, you will learn about the basics of compas_fab.
 
-Use the `afab19` environment and update it as follows:
+## Installation
+
+We will use the `afab19` environment and update it as follows:
 
     (base)  conda activate afab19
-    (afab19) conda install compas=0.11 compas_fab=0.9 --yes
-    (afab19) python -m compas_rhino.install
+    (afab19) conda update compas compas_fab --yes
     (afab19) python -m compas_fab.rhino.install -v 6.0
 
-### Installation Problems
-
-If you run into problems, please remove and reinstall your `afab19` environment as follows:
-    
-    (base)  conda config --add channels conda-forge
-    (base)  conda remove --name afab19 --all
-    (base)  create -n urfab python=3.6 compas=0.11 compas_fab=0.9 matplotlib=3.0 --yes
-    (base)  conda activate urfab
-
-## Jupyter Notebooks Installation
-
-Some examples will also use Jupyter Notebooks, which needs to be installed **in the same environment**:
-
-    (afab19) conda install jupyter rise pythreejs jupyter_contrib_nbextensions jupyter_nbextensions_configurator --yes
-
-## Verify Installation
+## Verify installation
 
     (afab19) python
     >>> import compas_fab
     >>> compas_fab.__version__
-    '0.9.0'
+    '0.10.0'
     >>> exit()
+
+Some examples use Jupyter Notebooks, which needs to be installed **in the same environment**:
+
+    (afab19) conda install jupyter rise pythreejs jupyter_contrib_nbextensions jupyter_nbextensions_configurator --yes
 
 ## Examples
 
-* **Slides**: [link](https://docs.google.com/presentation/d/1OIU3vCmwe3lkVWpI0JuJJ-GFoOq5HH8ulElPZNS_F2Y/edit?usp=sharing)
-* **Assignments**: [link](assignments/README.md)
+### Session A: 
+
+* **Slides**: [session 1](https://docs.google.com/presentation/d/1OIU3vCmwe3lkVWpI0JuJJ-GFoOq5HH8ulElPZNS_F2Y/edit?usp=sharing)
+* **Assignments**: [session 1](assignments/session1.md)
 
 ---
 
@@ -56,10 +48,32 @@ Some examples will also use Jupyter Notebooks, which needs to be installed **in 
 * Examples of ROS & MoveIt planning with UR5:
   * [Forward Kinematics](examples/10_forward_kinematics_ros_loader.py)
   * [Inverse Kinematics](examples/11_inverse_kinematics_ros_loader.py)
-  * [Cartesian path planning](examples/12_plan_cartesian_motion_ros_loader.py)
-  * [Free space path planning](examples/13_plan_motion_ros_loader.py)
+  * [Cartesian motion planning](examples/12_plan_cartesian_motion_ros_loader.py)
+  * [Free space motion planning](examples/13_plan_motion_ros_loader.py)
   * Planning scene management:
     * [Add objects to the scene](examples/14_add_collision_mesh.py)
     * [Append nested objects to the scene](examples/15_append_collision_meshes.py)
     * [Remove objects from the scene](examples/16_remove_collision_mesh.py)
 * [Grasshopper Playground](examples/17_robot_playground_ur5.ghx)
+
+### Session B:
+
+* **Slides**:  [session 2](https://docs.google.com/presentation/d/1S29aMP9h4nRvQCdr1jGvp0L4YQCc8q0_irpHb9p9kos/edit?usp=sharing)
+* **Assignments**: [session 2](assignments/session2.md)
+* **Jupyter Notebooks**:
+  * [Path planning](Path%20planning.ipynb)
+  * [Robotic Assembly](Robotic%20Assembly.ipynb)
+
+---
+
+* [Docker configuration to launch ROS & MoveIt](docker-ur5/)
+* [Assembly Playground](examples/20_robot_assembly.ghx)
+* Attaching gripper/tool:
+  * [Attach tool to last link of the robot](examples/21_attach_tool.py)
+  * [Plan cartesian motion with attached tool](examples/22_plan_cartesian_motion_with_attached_tool.py)
+* Assembly elements (e.g. bricks):
+  * [Add assembly element to planning scene](examples/23_create_element_and_add_to_planning_scene.py)
+  * [Attach assembly element to gripper](examples/24_add_element_as_attached_collision_object.py)
+* Pick and place examples:
+  * [Pick and place](examples/25_pick_and_place.py)
+  * [Pick and place Stack](examples/26_pick_and_place_stack.py)
