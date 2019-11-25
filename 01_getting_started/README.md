@@ -7,6 +7,8 @@
 * [Anaconda Python](https://www.anaconda.com/distribution/?gclid=CjwKCAjwo9rtBRAdEiwA_WXcFoyH8v3m-gVC55J6YzR0HpgB8R-PwM-FClIIR1bIPYZXsBtbPRfJ8xoC6HsQAvD_BwE)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Github Desktop](https://desktop.github.com/)
+* [compas] (https://compas-dev.github.io/)
+* [compas_fab] (https://gramaziokohler.github.io/compas_fab/latest/)
 
 ### 1. Setting up the Anaconda environment with COMPAS and COMPAS_fab
 
@@ -29,10 +31,6 @@ Then continue with activating the environment:
 For simply updating your environment, you can also call the following command:
 	
 	(afab19) conda update compas compas_fab --yes
-    
-For more info about COMPAS follow this [link](https://compas-dev.github.io/).
-
-For more info about COMPAS_fab follow this [link](https://gramaziokohler.github.io/compas_fab/latest/).
 
 ### 2. Setting up the Rhino/Grasshopper Environment
 
