@@ -1,5 +1,3 @@
-"""Example: add a floor to the planning scene
-"""
 import time
 
 from compas.datastructures import Mesh
@@ -11,12 +9,17 @@ from compas_fab.robots import PlanningScene
 from compas_fab.robots.ur5 import Robot
 
 with RosClient('localhost') as client:
-    robot = Robot(client)
-
+    robot = client.load_robot()
+    
     scene = PlanningScene(robot)
-    mesh = Mesh.from_stl(compas_fab.get('planning_scene/floor.stl'))
-    cm = CollisionMesh(mesh, 'floor')
-    scene.add_collision_mesh(cm)
+
+    # create collison objects
+    mesh = Mesh.from_stl(compas_fab.get('planning_scene/cone.stl'))
+    cm = CollisionMesh(mesh, 'tip')
+
+    # attach it to the end-effector
+    group = robot.main_group_name
+    scene.attach_collision_mesh_to_robot_end_effector(cm, group=group)
 
     # sleep a bit before terminating the client
     time.sleep(1)
