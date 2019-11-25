@@ -1,18 +1,18 @@
 # Module 2
 
-The next two weeks of the COMPAS ITA course are focused on robotic assembly using `COMPAS FAB`:
+In this **Robotic Fabrication Basics** sessions, you will learn about the basics of compas_fab.
 
 ## Installation
 
-We will use the `ita19` environment and update it as follows:
+We will use the `afab19` environment and update it as follows:
 
-    (base)  conda activate ita19
-    (ita19) conda update compas compas_fab --yes
-    (ita19) python -m compas_fab.rhino.install -v 6.0
+    (base)  conda activate afab19
+    (afab19) conda update compas compas_fab --yes
+    (afab19) python -m compas_fab.rhino.install -v 6.0
 
 ## Verify installation
 
-    (ita19) python
+    (afab19) python
     >>> import compas_fab
     >>> compas_fab.__version__
     '0.10.0'
@@ -20,11 +20,11 @@ We will use the `ita19` environment and update it as follows:
 
 Some examples use Jupyter Notebooks, which needs to be installed **in the same environment**:
 
-    (ita19) conda install jupyter rise pythreejs jupyter_contrib_nbextensions jupyter_nbextensions_configurator --yes
+    (afab19) conda install jupyter rise pythreejs jupyter_contrib_nbextensions jupyter_nbextensions_configurator --yes
 
 ## Examples
 
-### Session 1: 14th November 2019
+### Session A: 
 
 * **Slides**: [session 1](https://docs.google.com/presentation/d/1OIU3vCmwe3lkVWpI0JuJJ-GFoOq5HH8ulElPZNS_F2Y/edit?usp=sharing)
 * **Assignments**: [session 1](assignments/session1.md)
@@ -56,7 +56,7 @@ Some examples use Jupyter Notebooks, which needs to be installed **in the same e
     * [Remove objects from the scene](examples/16_remove_collision_mesh.py)
 * [Grasshopper Playground](examples/17_robot_playground_ur5.ghx)
 
-### Session 2: 20th November 2019
+### Session B:
 
 * **Slides**:  [session 2](https://docs.google.com/presentation/d/1S29aMP9h4nRvQCdr1jGvp0L4YQCc8q0_irpHb9p9kos/edit?usp=sharing)
 * **Assignments**: [session 2](assignments/session2.md)
