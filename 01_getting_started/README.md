@@ -24,7 +24,7 @@ Alternatively: If you run into problems with the PIL library, run instead:
 
 Then continue with activating the environment:
 
-    	(base) conda activate afab19
+	(base) conda activate afab19
 	
 For simply updating your environment, you can also call the following command:
 	
