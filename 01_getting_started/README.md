@@ -7,8 +7,8 @@
 * [Anaconda Python](https://www.anaconda.com/distribution/?gclid=CjwKCAjwo9rtBRAdEiwA_WXcFoyH8v3m-gVC55J6YzR0HpgB8R-PwM-FClIIR1bIPYZXsBtbPRfJ8xoC6HsQAvD_BwE)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Github Desktop](https://desktop.github.com/)
-* [compas] (https://compas-dev.github.io/)
-* [compas_fab] (https://gramaziokohler.github.io/compas_fab/latest/)
+* [compas](https://compas-dev.github.io/)
+* [compas_fab](https://gramaziokohler.github.io/compas_fab/latest/)
 
 ### 1. Setting up the Anaconda environment with COMPAS and COMPAS_fab
 
