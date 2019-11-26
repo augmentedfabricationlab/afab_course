@@ -26,9 +26,13 @@ Some examples use Jupyter Notebooks, which needs to be installed **in the same e
 
 ### Session A: 
 
-* **Slides**: [session 1](https://docs.google.com/presentation/d/1OIU3vCmwe3lkVWpI0JuJJ-GFoOq5HH8ulElPZNS_F2Y/edit?usp=sharing)
-* **Assignments**: [session 1](assignments/session1.md)
+* **Slides**: [session 1](https://docs.google.com/presentation/d/1wE8Rpp_3Or0ItfSfTzsOB0B8ogb1tT9noUbGMIsG5wI/edit#slide=id.g7596e826ec_0_11)
+* **Assignments**:
 
+### Session B: 
+
+* **Slides**:
+* **Assignments**:
 ---
 
 * [Docker configuration to launch ROS & MoveIt](docker-ur5/)
@@ -56,10 +60,10 @@ Some examples use Jupyter Notebooks, which needs to be installed **in the same e
     * [Remove objects from the scene](examples/16_remove_collision_mesh.py)
 * [Grasshopper Playground](examples/17_robot_playground_ur5.ghx)
 
-### Session B:
+### Session C:
 
-* **Slides**:  [session 2](https://docs.google.com/presentation/d/1S29aMP9h4nRvQCdr1jGvp0L4YQCc8q0_irpHb9p9kos/edit?usp=sharing)
-* **Assignments**: [session 2](assignments/session2.md)
+* **Slides**:  
+* **Assignments**:
 * **Jupyter Notebooks**:
   * [Path planning](Path%20planning.ipynb)
   * [Robotic Assembly](Robotic%20Assembly.ipynb)
