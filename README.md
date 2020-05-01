@@ -25,13 +25,16 @@ The topics will include:
 * Intro to geometry processing, data structures, topology, numerical computation
 * Domain-specific case studies (i.e., on architectural geometry, robotic assembly)
 
-## Schedule
+## Sessions
 
-Week | Date | Title | Description | Links
----- | ---- | ---- | ----- | -----------
-1 | Oct 29 | Introduction | Course overview, COMPAS intro | .
-2 | Nov 6 | Introduction | Python basics | .
-3 | Nov 20 | Introduction | UR10 robots introduction | .
+Sessions  | Title | Description | Links
+---- | ---- | ----- | -----------
+1 | [Getting started](01_getting_started/index.md) | Course overview, Installation, COMPAS intro | .
+2 | Python basics | Quick start on Python | .
+3 | Geometry | COMPAS geometry | .
+4 | Datastructures | COMPAS datastructures | .
+5 | Assembly Information Model | Assembly and Element datastructures and algorithms | .
+6 | Robotic Fabrication | Robotic assembly process, simulation and control | .
 
 ## Environment setup
 
