@@ -61,7 +61,7 @@ Create a workspace directory:
 
 C:\Users\YOUR_USERNAME\workspace
 
-Then clone the following repositories into you workspace folder:
+Then open Github Desktop and clone the following repositories into you workspace folder:
 
 * [afab_course](https://github.com/augmentedfabricationlab/afab_course)
 * [assembly_information_model](https://github.com/augmentedfabricationlab/assembly_information_model)
