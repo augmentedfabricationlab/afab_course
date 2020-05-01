@@ -42,10 +42,11 @@ To run the jupyter notebook, you simply have to type:
 
 in your command line.
 
-#### Jupyter extensions activation
-
+<details>
+<summary>Jupyter extensions activation</summary>
+<br>
 After installing, you can observe a new tab Nbextensions added to the menu (last entry under "Edit"), in which you can activate the extensions.
-
+</details>
 
 <details>
 <summary>Jupyter workspace configuration</summary>
