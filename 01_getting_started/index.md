@@ -10,44 +10,35 @@
 * [compas](https://compas-dev.github.io/)
 <!-- * [compas_fab](https://gramaziokohler.github.io/compas_fab/latest/) -->
 
-### 1. Setting up the Anaconda environment with COMPAS and COMPAS_fab
+### 1. Setting up the Anaconda environment with COMPAS
 
-Add conda-forge to the list of channels where conda looks for packages.
-
+Execute the commands below in Anaconda Prompt:
+	
 	(base) conda config --add channels conda-forge
+	(base) conda create -n afab python=3.8 compas=0.15.6 --yes
 
-Execute the commands below in Anaconda Prompt to install compas and compas_fab:
+Then continue with activating the environment and [setting it up for Rhino/GH]((https://compas-dev.github.io/main/gettingstarted/cad/rhino.html)):
 
-<!--	(base) conda create -n afab19 python=3.6 compas=0.11 compas_fab=0.10 --yes -->
-
-	(base) conda create -n afab_course python=3.8 compas=0.15.6 --yes
-
-Then continue with activating the environment:
-
-	(base) conda activate afab_course
-	
-<!-- For simply updating your environment, you can also call the following command:
-	
-	(afab19) conda update compas compas_fab --yes -->
-
-### 2. Setting up the Rhino/Grasshopper Environment
-
-see also this [link](https://compas-dev.github.io/main/gettingstarted/cad/rhino.html)
-
-Installing COMPAS for Rhino is very simple. Just type the following on Anaconda prompt:
+	(base) conda activate afab
+    	(afab) python -m compas_rhino.install -v 6.0 -p compas compas_ghpython compas_rhino
     
-    (afab19) python -m compas_rhino.install
-    (afab19) python -m compas_fab.rhino.install -v 6.0
+To verify your installation, type the commands below:
 
-### 3. Setting up jupyter and extensions
+    	(afab) python
+    	>>> import compas_fab
+    	>>> compas_fab.__version__
+    	'0.15.6'
+    	>>> exit()
 
-Install jupyter and extensions for the afab19 environment:
+### 2. Setting up Jupyter and extensions
 
-    (afab19) conda install jupyter rise pythreejs jupyter_contrib_nbextensions jupyter_nbextensions_configurator --yes
+Install jupyter and extensions for the afab environment:
+
+    (afab) conda install jupyter rise pythreejs jupyter_contrib_nbextensions jupyter_nbextensions_configurator --yes
 
 To run the jupyter notebook, you simply have to type:
 
-    (afab19) jupyter notebook
+    (afab) jupyter notebook
 
 in your command line.
 
@@ -59,15 +50,11 @@ After installing, you can observe a new tab Nbextensions added to the menu (last
 
 To configure the workspace, type
 
-    (afab19) jupyter notebook --generate-config
+    (afab) jupyter notebook --generate-config
 
 This writes a default configuration file into:
 
 `%HOMEPATH%\.jupyter\jupyter_notebook_config.py` (on windows)
-
-or
-
-`~/.jupyter/jupyter_notebook_config.py` (on mac)
 
 If you want jupyter to open in a different directory, then change the following line:
 
