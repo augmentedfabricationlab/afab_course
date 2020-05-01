@@ -58,17 +58,17 @@ If you want jupyter to open in a different directory, then change the following 
 ### 2. Installation of Dependencies
 
 Create a workspace directory:
-	
-	C:\Users\YOUR_USERNAME\workspace
 
-Clone the following repositories into you workspace folder:
+C:\Users\YOUR_USERNAME\workspace
 
-	* [afab_course](https://github.com/augmentedfabricationlab/afab_course)
-	* [assembly_information_model](https://github.com/augmentedfabricationlab/assembly_information_model)
-	* [climate_active_bricks](https://github.com/augmentedfabricationlab/climate_active_bricks)
-	* [ur_online_control](https://github.com/augmentedfabricationlab/ur_online_control)
+Then clone the following repositories into you workspace folder:
 
-Make the projects accessible from Rhino (change to the respective repository directory in the Anaconda prompt):
+* [afab_course](https://github.com/augmentedfabricationlab/afab_course)
+* [assembly_information_model](https://github.com/augmentedfabricationlab/assembly_information_model)
+* [climate_active_bricks](https://github.com/augmentedfabricationlab/climate_active_bricks)
+* [ur_online_control](https://github.com/augmentedfabricationlab/ur_online_control)
+
+And make the projects accessible from Rhino (change to the respective repository directory in the Anaconda prompt):
 
 	(afab) invoke add-to-rhino
 	
