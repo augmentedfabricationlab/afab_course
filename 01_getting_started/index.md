@@ -8,7 +8,7 @@
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Github Desktop](https://desktop.github.com/)
 * [compas](https://compas-dev.github.io/)
-* [compas_fab](https://gramaziokohler.github.io/compas_fab/latest/)
+<!-- * [compas_fab](https://gramaziokohler.github.io/compas_fab/latest/) -->
 
 ### 1. Setting up the Anaconda environment with COMPAS and COMPAS_fab
 
@@ -18,19 +18,17 @@ Add conda-forge to the list of channels where conda looks for packages.
 
 Execute the commands below in Anaconda Prompt to install compas and compas_fab:
 
-	(base) conda create -n afab19 python=3.6 compas=0.11 compas_fab=0.10 --yes
-    
-Alternatively: If you run into problems with the PIL library, run instead:
+<!--	(base) conda create -n afab19 python=3.6 compas=0.11 compas_fab=0.10 --yes -->
 
-	(base) conda create -n afab19 python=3.6 compas=0.11 compas_fab=0.10 matplotlib=3.0 --yes
+	(base) conda create -n afab_course python=3.8 compas=0.15.6 --yes
 
 Then continue with activating the environment:
 
-	(base) conda activate afab19
+	(base) conda activate afab_course
 	
-For simply updating your environment, you can also call the following command:
+<!-- For simply updating your environment, you can also call the following command:
 	
-	(afab19) conda update compas compas_fab --yes
+	(afab19) conda update compas compas_fab --yes -->
 
 ### 2. Setting up the Rhino/Grasshopper Environment
 
