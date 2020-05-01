@@ -7,8 +7,7 @@
 * [Anaconda Python](https://www.anaconda.com/distribution/?gclid=CjwKCAjwo9rtBRAdEiwA_WXcFoyH8v3m-gVC55J6YzR0HpgB8R-PwM-FClIIR1bIPYZXsBtbPRfJ8xoC6HsQAvD_BwE)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Github Desktop](https://desktop.github.com/)
-* [COMPAS](https://compas-dev.github.io/)
-<!-- * [compas_fab](https://gramaziokohler.github.io/compas_fab/latest/) -->
+* [COMPAS](https://compas-dev.github.io/) <!-- * [compas_fab](https://gramaziokohler.github.io/compas_fab/latest/) -->
 * [Assembly Information Model](https://github.com/augmentedfabricationlab/assembly_information_model)
 * [UR Robot Online Control](https://github.com/augmentedfabricationlab/ur_online_control)
 
