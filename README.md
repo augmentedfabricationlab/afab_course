@@ -1,6 +1,6 @@
-# AFAB Seminar
+# AFAB Seminar Basics of Robotic Fabrication
 
-*Basics of Robotic Fabrication*
+<img src="images/intro01.jpg" width="300"> <img src="images/intro02.jpg" width="300">
 
 ## Description
 
@@ -29,12 +29,28 @@ The topics will include:
 
 Sessions  | Title | Description | Links
 ---- | ---- | ----- | -----------
-1 | [Getting started](01_getting_started/index.md) | Course overview, Installation, COMPAS intro | .
+1 | [Getting started](01_getting_started/index.md) | Course overview, Installation, COMPAS intro | [Slides](https://docs.google.com/presentation/d/1XW2h3WrHfVG4USUCjJp5Sgxk5VMwEWn4va1VxWz6eRc/edit?usp=sharing)
 2 | Python basics | Quick start on Python | .
 3 | Geometry | COMPAS geometry | .
 4 | Datastructures | COMPAS datastructures | .
 5 | Assembly Information Model | Assembly and Element datastructures and algorithms | .
 6 | Robotic Fabrication | Robotic assembly process, simulation and control | .
+
+
+## Requirements
+
+* Windows 10 Professional
+* Rhino 6 / Grasshopper
+* [Anaconda Python](https://www.anaconda.com/distribution/?gclid=CjwKCAjwo9rtBRAdEiwA_WXcFoyH8v3m-gVC55J6YzR0HpgB8R-PwM-FClIIR1bIPYZXsBtbPRfJ8xoC6HsQAvD_BwE)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Github Desktop](https://desktop.github.com/)
+
+## Dependencies
+
+* [COMPAS](https://compas-dev.github.io/) <!-- * [compas_fab](https://gramaziokohler.github.io/compas_fab/latest/) -->
+* [Afab Course](https://github.com/augmentedfabricationlab/afab_course)
+* [Assembly Information Model](https://github.com/augmentedfabricationlab/assembly_information_model)
+* [UR Robot Online Control](https://github.com/augmentedfabricationlab/ur_online_control)
 
 ## Environment setup
 
