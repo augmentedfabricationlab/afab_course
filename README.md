@@ -30,11 +30,11 @@ The topics will include:
 Sessions  | Title | Description | Links
 ---- | ---- | ----- | -----------
 1 | [Getting started](01_getting_started/index.md) | Course overview, Installation, COMPAS intro | [Slides](https://docs.google.com/presentation/d/1XW2h3WrHfVG4USUCjJp5Sgxk5VMwEWn4va1VxWz6eRc/edit?usp=sharing)
-2 | Python basics | Quick start on Python | .
-3 | Geometry | COMPAS geometry | .
-4 | Datastructures | COMPAS datastructures | .
-5 | Assembly Information Model | Assembly and Element datastructures and algorithms | .
-6 | Robotic Fabrication | Robotic assembly process, simulation and control | .
+2 | Python basics | Quick start on Python | Slides Assignment
+3 | Geometry | COMPAS geometry | Slides Assignment
+4 | Datastructures | COMPAS datastructures | Slides Assignment
+5 | Assembly Information Model | Assembly and Element datastructures and algorithms | Slides Assignment
+6 | Robotic Fabrication | Robotic assembly process, simulation and control | Slides Assignment
 
 
 ## Requirements
