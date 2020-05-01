@@ -28,16 +28,16 @@ The topics will include:
 ## Sessions
 
 Sessions  | Title | Description | Links
----- | ---- | ---- | ----- | -----------
-1 | [Getting started](01_getting_started/README.md) | Course overview, Installation, COMPAS intro | .
+---- | ---- | ----- | -----------
+1 | [Getting started](01_getting_started/index.md) | Course overview, Installation, COMPAS intro | .
 2 | Python basics | Quick start on Python | .
 3 | Geometry | COMPAS geometry | .
-3 | Datastructures | COMPAS datastructures | .
-3 | Assembly Information Model | Assembly and Element datastructures and algorithms | .
-3 | Robotic Fabrication | Robotic assembly process, simulation and control | .
+4 | Datastructures | COMPAS datastructures | .
+5 | Assembly Information Model | Assembly and Element datastructures and algorithms | .
+6 | Robotic Fabrication | Robotic assembly process, simulation and control | .
 
 ## Environment setup
 
-Please set up your Python environment following these [instructions](01_getting_started/README.md). The modules will be taught using Jupyter notebooks.
+Please set up your Python environment following these [instructions](01_getting_started/index.md). The modules will be taught using Jupyter notebooks.
     
     
