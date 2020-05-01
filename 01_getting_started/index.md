@@ -20,7 +20,7 @@ Execute the commands below in Anaconda Prompt:
 Then continue with activating the environment and [setting it up for Rhino/GH]((https://compas-dev.github.io/main/gettingstarted/cad/rhino.html)):
 	
 	(base) conda activate afab
-    	(afab) python -m compas_rhino.install -v 6.0 -p compas compas_ghpython compas_rhino
+	(afab) python -m compas_rhino.install -v 6.0 -p compas compas_ghpython compas_rhino
     
 To verify your installation, type the commands below:
 
