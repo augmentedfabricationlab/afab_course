@@ -1,7 +1,6 @@
 # AFAB Seminar Basics of Robotic Fabrication
 
-<img src="images/intro01.jpg" width="300">
-<img src="images/intro02.jpg" width="300">
+<img src="images/intro01.jpg" width="300"> <img src="images/intro02.jpg" width="300">
 
 ## Description
 
