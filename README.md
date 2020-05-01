@@ -37,7 +37,7 @@ Sessions  | Title | Description | Links
 6 | Robotic Fabrication | Robotic assembly process, simulation and control | .
 
 
-## Dependencies
+## Requirements
 
 * Windows 10 Professional
 * Rhino 6 / Grasshopper
@@ -45,7 +45,7 @@ Sessions  | Title | Description | Links
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Github Desktop](https://desktop.github.com/)
 
-## Requirements
+## Dependencies
 
 * [COMPAS](https://compas-dev.github.io/) <!-- * [compas_fab](https://gramaziokohler.github.io/compas_fab/latest/) -->
 * [Afab Course](https://github.com/augmentedfabricationlab/afab_course)
