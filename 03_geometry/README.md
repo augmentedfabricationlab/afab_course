@@ -13,7 +13,14 @@
 ### 2a Recursive Branching Lines
 Write a recursive function in Grasshopper Python, which creates a random 2D or 3D branching structure. Fill in the missing code in the Python component in the ghx file [assignment_2a_recursion_branches_lines.ghx](assignment_2a_recursion_branches_lines.ghx).
 
-The output of the 2D branching should look similar to this:<br><br>
+The output of the 2D and 3D branching should look similar to this:
+
+output 2d  | output 3d
+---- | ---- 
+<img src="images/branches2d.jpg" width="300px" a/> | <img src="images/branches3d.jpg" width="300px" a/><br>
+
+
+The output of the 2D branching should look similar to this: | 
 <img src="images/branches2d.jpg" width="300px" a/>
 
 and the output of the 3D branching should look similar to this:<br><br>
