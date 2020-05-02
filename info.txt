@@ -1,5 +1,0 @@
-python basics
-geometry
-datastructures
-assembly datastructure
-robotic fabrication
