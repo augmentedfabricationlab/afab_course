@@ -17,7 +17,7 @@ Define a function for computing the cross products of two same-length arrays of 
 Write a recursive function in Grasshopper Python, which creates a random 2D or 3D branching structure. Fill in the missing code in the Python component in the ghx file [assignment_2a_recursion_branches_lines.ghx](assignment_2a_recursion_branches_lines.ghx).
 
 The output of the 2D branching should look similar to this:
-![Output of 2D branching:](images/branches2d.jpg)
+<img src="images/branches2d.jpg" width="300px" a/>
 
 and the output of the 3D branching should look similar to this:
 ![Output of 2D branching:](images/branches3d.jpg)
