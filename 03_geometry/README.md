@@ -2,7 +2,7 @@
 
 ## 1 - Vector Calculations
 
-Fill in the missing code in the [Python files](https://github.com/augmentedfabricationlab/afab_course/tree/master/02_python_basics/assignment)
+Fill in the missing code in the [Python files]().
 
 * 1a: Given two vectors, use the cross product to create a set of three orthonormal vectors.
 
