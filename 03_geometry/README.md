@@ -29,4 +29,4 @@ The output of the 3D recursive boxes should look similar to this:
 
 | output 3d  |
 | ---- |
-| <img src="images/boxes.jpg" width="300px" a/> |
+| <img src="images/boxes3d.jpg" width="300px" a/> |
