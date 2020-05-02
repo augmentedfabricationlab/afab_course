@@ -2,6 +2,8 @@
 
 ## 1 - Vector Calculations
 
+Fill in the missing code in the [Python files](https://github.com/augmentedfabricationlab/afab_course/tree/master/02_python_basics/assignment)
+
 * 1a: Given two vectors, use the cross product to create a set of three orthonormal vectors.
 
 * 1b: Use the cross product to compute the area of a convex, 2D polygon.
