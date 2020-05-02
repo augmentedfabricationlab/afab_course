@@ -75,6 +75,10 @@ And make the projects accessible from Rhino (change to the respective repository
 Make the assembly_information_model repository accessible for your environment 	
 	
 	(afab) pip install your_filepath_to_assembly_information_model 
+	
+Other dependencies
+	
+	(afab) conda install shapely
 
 
 
