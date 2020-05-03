@@ -31,8 +31,8 @@ Sessions  | Title | Description | Links
 ---- | ---- | ----- | -----------
 1 | [Getting started](01_getting_started/index.md) | Course overview, Installation, COMPAS intro | [Slides](https://docs.google.com/presentation/d/1XW2h3WrHfVG4USUCjJp5Sgxk5VMwEWn4va1VxWz6eRc/edit?usp=sharing)
 2 | Python basics | Quick start on Python |  [Assignment](https://github.com/augmentedfabricationlab/afab_course/blob/master/02_python_basics/README.md)
-3 | Geometry | COMPAS geometry | [Slides]() [Assignment](https://github.com/augmentedfabricationlab/afab_course/blob/master/03_geometry/README.md)
-4 | Datastructures | COMPAS datastructures | Slides Assignment
+3 | Geometry | COMPAS geometry | Slides [Assignment](https://github.com/augmentedfabricationlab/afab_course/blob/master/03_geometry/README.md)
+4 | Datastructures | COMPAS datastructures | Slides [Assignment](https://github.com/augmentedfabricationlab/afab_course/blob/master/04_datastructures/README.md)
 5 | Assembly Information Model | Assembly and Element datastructures and algorithms | Slides Assignment
 6 | Robotic Fabrication | Robotic assembly process, simulation and control | Slides Assignment
 
