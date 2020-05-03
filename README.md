@@ -29,7 +29,7 @@ The topics will include:
 
 Sessions  | Title | Description | Links
 ---- | ---- | ----- | -----------
-1 | [Getting started](01_getting_started/index.md) | Course overview, Installation, COMPAS intro | [Slides](https://docs.google.com/presentation/d/1XW2h3WrHfVG4USUCjJp5Sgxk5VMwEWn4va1VxWz6eRc/edit?usp=sharing)
+1 | [Getting started](01_getting_started/README.md) | Course overview, Installation, COMPAS intro | [Slides](https://docs.google.com/presentation/d/1XW2h3WrHfVG4USUCjJp5Sgxk5VMwEWn4va1VxWz6eRc/edit?usp=sharing)
 2 | Python basics | Quick start on Python |  [Assignment](https://github.com/augmentedfabricationlab/afab_course/blob/master/02_python_basics/README.md)
 3 | Geometry | COMPAS geometry | [Slides](https://docs.google.com/presentation/d/1aoN78Ly8McjeRaG414YK4fPjcLpvn5u9GgkAujSx8SI/edit?usp=sharing) [Assignment](https://github.com/augmentedfabricationlab/afab_course/blob/master/03_geometry/README.md)
 4 | Datastructures | COMPAS datastructures | [Slides](https://docs.google.com/presentation/d/1lLZmPMTqK4SVfKCVItVMwb3bHDyXTBluC7GhKJmNO2Y/edit?usp=sharing) [Assignment](https://github.com/augmentedfabricationlab/afab_course/blob/master/04_datastructures/README.md)
