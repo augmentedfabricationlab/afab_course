@@ -15,8 +15,8 @@ Then continue with activating the environment and [setting it up for Rhino/GH]((
 To verify your installation, type the commands below:
 
 	(afab) python
-	>>> import compas_fab
-	>>> compas_fab.__version__
+	>>> import compas
+	>>> compas.__version__
 	'0.15.6'
 	>>> exit()
 
