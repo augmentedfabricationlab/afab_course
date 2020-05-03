@@ -49,9 +49,11 @@ def draw_frame(frame, layer):
 # Algorithm
 # ==============================================================================
 
+# create a random pointcloud cloud1
 cloud1 = pointcloud(30, (0, 10), (0, 3), (0, 5))
 bbox1 = bounding_box(cloud1)
 
+# transform cloud1 with arbitrary values to orient it in 3D space
 Rz = Rotation.from_axis_and_angle([0.0, 0.0, 1.0], radians(60))
 Ry = Rotation.from_axis_and_angle([0.0, 1.0, 0.0], radians(20))
 Rx = Rotation.from_axis_and_angle([1.0, 0.0, 0.0], radians(10))
@@ -60,23 +62,29 @@ T = Translation([2.0, 5.0, 8.0])
 
 R = T * Rz * Ry * Rx
 
+# and return cloud2
 cloud2 = transform_points(cloud1, R)
 bbox2 = transform_points(bbox1, R)
 
+# perform the principle component analysis
 mean, vectors, values = numerical.pca_numpy(cloud2)
 
-origin = mean[0]
+origin = mean
 xaxis = vectors[0]
 yaxis = vectors[1]
 
+# create the frame as a result from the pca
 frame = Frame(origin, xaxis, yaxis)
 world = Frame.worldXY()
 
+# compute the transformation between the pca frame and the world frame
 X = Transformation.from_frame_to_frame(frame, world)
 
+# and transform cloud2 to the world coordinate frame as cloud3
 cloud3 = transform_points(cloud2, X)
 bbox3 = bounding_box(cloud3)
 
+# transform the bounding box back the pca frame, to compare it with the input.
 bbox4 = transform_points(bbox3, X.inverse())
 
 # ==============================================================================

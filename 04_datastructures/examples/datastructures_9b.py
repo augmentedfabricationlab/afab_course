@@ -12,7 +12,7 @@ FILE = os.path.join(DATA, 'faces.obj')
 
 mesh = Mesh.from_obj(FILE)
 
-mesh.set_vertices_attributes('xyz', [0, 0, 0])
+mesh.vertices_attributes('xyz', [0, 0, 0])
 
 bfo = breadth_first_ordering(mesh.adjacency, 0)
 

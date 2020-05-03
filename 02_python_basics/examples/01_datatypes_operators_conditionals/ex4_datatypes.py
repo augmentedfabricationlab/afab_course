@@ -1,3 +1,4 @@
+#integers and floats
 a = 10
 b = a
 a = a + 1

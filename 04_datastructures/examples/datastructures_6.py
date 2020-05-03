@@ -9,10 +9,10 @@ FILE = os.path.join(DATA, 'faces.obj')
 
 mesh = Mesh.from_obj(FILE)
 
-print(mesh.get_vertex_attribute(0, 'x'))
+print(mesh.vertex_attribute(0, 'x'))
 
-print(mesh.get_vertex_attributes(0, 'xyz'))
+print(mesh.vertex_attributes(0, 'xyz'))
 
-print(mesh.get_vertices_attribute('x'))
+print(mesh.vertices_attribute('x'))
 
-print(mesh.get_vertices_attributes('xyz'))
+print(mesh.vertices_attributes('xyz'))
