@@ -70,7 +70,16 @@ Then open Github Desktop and clone the following repositories into you workspace
 
 And make the projects accessible from Rhino (change to the respective repository directory in the Anaconda prompt):
 
+	(afab) cd your_filepath_to_directory
 	(afab) invoke add-to-rhino
+	
+<details>
+<summary>Problems?</summary>
+<br>
+You have to change to the respective repository directory in the Anaconda prompt, 
+	(afab) cd path_to_directory
+	(afab) invoke add-to-rhino
+</details>
 	
 Make the assembly_information_model repository accessible for your environment 	
 	
