@@ -16,7 +16,7 @@ Fill in the missing code in the [Python files](https://github.com/augmentedfabri
 
 #### 2a Recursive Branching Lines
 
-Write a recursive function in Grasshopper Python, which creates a random 2D or 3D branching structure. Fill in the missing code in the Python component in the ghx file [assignment_2a_recursion_branches_lines.ghx](assignment_2a_recursion_branches_lines.ghx).
+Write a recursive function in Grasshopper Python, which creates a random 2D or 3D branching structure. Fill in the missing code in the Python component in the ghx file [assignment_2a_recursion_branches_lines.ghx](assignment/assignment_2a_recursion_branches_lines.ghx).
 
 The output of the 2D and 3D branching should look similar to this:
 
@@ -27,7 +27,7 @@ output 2d  | output 3d
 
 #### 2b Recursive Branching Boxes
 
-Write a recursive function for in Grasshopper Python, which creates a random 3D branching structure with boxes around the branches. Fill in the missing code in the Python component in the ghx file [assignment_2b_recursion_branches_boxes.ghx](assignment_2b_recursion_branches_boxes.ghx).
+Write a recursive function for in Grasshopper Python, which creates a random 3D branching structure with boxes around the branches. Fill in the missing code in the Python component in the ghx file [assignment_2b_recursion_branches_boxes.ghx](assignment/assignment_2b_recursion_branches_boxes.ghx).
 
 The output of the 3D recursive boxes should look similar to this:
 
