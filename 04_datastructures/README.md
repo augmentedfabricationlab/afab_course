@@ -9,5 +9,5 @@ The expected output should look as follows:
 
 | output traverse, start=1  |
 | ---- |
-| <img src="https://github.com/augmentedfabricationlab/afab_course/blob/master/04_datastructures/assignment/images/mesh_traverse.jpeg" width="300px" a/> |
+| <img src="https://github.com/augmentedfabricationlab/afab_course/blob/master/04_datastructures/assignment/images/mesh_traverse.jpeg" width="440px" a/> |
 
