@@ -76,9 +76,11 @@ And make the projects accessible from Rhino (change to the respective repository
 <details>
 <summary>Problems?</summary>
 <br>
-You have to change to the respective repository directory in the Anaconda prompt, 
+You have to change to the respective repository directory in the Anaconda prompt to execute the invoke command:
+	
 	(afab) cd path_to_directory
 	(afab) invoke add-to-rhino
+	
 </details>
 	
 Make the assembly_information_model repository accessible for your environment 	
