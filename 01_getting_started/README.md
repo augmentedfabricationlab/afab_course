@@ -68,9 +68,9 @@ Then open Github Desktop and clone the following repositories into you workspace
 * [climate_active_bricks](https://github.com/augmentedfabricationlab/climate_active_bricks)
 * [ur_online_control](https://github.com/augmentedfabricationlab/ur_online_control)
 
-And make the projects accessible from Rhino (change to the respective repository directory in the Anaconda prompt):
+And make all the projects accessible from Rhino (change to the respective repository directory in the Anaconda prompt):
 
-	(afab) cd your_filepath_to_directory
+	(afab) cd your_filepath_to_repository
 	(afab) invoke add-to-rhino
 	
 <details>
@@ -78,7 +78,7 @@ And make the projects accessible from Rhino (change to the respective repository
 <br>
 You have to change to the respective repository directory in the Anaconda prompt to execute the invoke command:
 	
-	(afab) cd path_to_directory
+	(afab) your_filepath_to_repository
 	(afab) invoke add-to-rhino
 	
 </details>
