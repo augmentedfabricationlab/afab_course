@@ -54,6 +54,6 @@ Sessions  | Title | Description | Links
 
 ## Environment setup
 
-Please set up your Python environment following these [instructions](01_getting_started/README.md). The modules will be taught using Jupyter notebooks.
+Please set up your Python environment following these [instructions](01_getting_started/README.md). The modules will be taught by theoretical input, practical examples, exercises, and assignments.
     
     
