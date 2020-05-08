@@ -91,7 +91,12 @@ Other dependencies
 	
 	(afab) conda install shapely
 
+<details>
+<summary>Init conda for the powershell</summary>
 
+	(afab) conda init
+	(afab) conda init powershell
+</details>
 
 
 
