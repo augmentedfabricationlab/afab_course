@@ -78,7 +78,7 @@ And make all the projects accessible from Rhino (change to the respective reposi
 <br>
 You have to change to the respective repository directory in the Anaconda prompt to execute the invoke command:
 	
-	(afab) your_filepath_to_repository
+	(afab) cd your_filepath_to_repository
 	(afab) invoke add-to-rhino
 	
 </details>
