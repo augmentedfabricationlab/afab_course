@@ -97,9 +97,6 @@ Other dependencies
 Init conda for the powershell
 
 	(afab) conda init
-
-or
-
 	(afab) conda init powershell
 	
 </details>
