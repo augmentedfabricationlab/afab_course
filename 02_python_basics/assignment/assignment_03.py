@@ -1,5 +1,5 @@
-""" 3. write a code that generates a nested list with 
-point coordinates to generate a point grid in rhino (of the form:
+""" 3. write a code with for loops that generates a nested list with 
+point coordinates to generate a 2D point grid (optionally: in Rhino) of the form:
 
 list_points =
 
@@ -19,5 +19,8 @@ list_points =
 """
 
 points = []
+
+x_size = 10
+y_size = 5
 
 ### insert code here
