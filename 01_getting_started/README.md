@@ -1,5 +1,7 @@
 # Getting started
 
+[Slides](https://docs.google.com/presentation/d/1XW2h3WrHfVG4USUCjJp5Sgxk5VMwEWn4va1VxWz6eRc/edit?usp=sharing)
+
 ### 1. Setting up the Anaconda environment with COMPAS
 
 Execute the commands below in Anaconda Prompt:
