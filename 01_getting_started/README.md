@@ -75,13 +75,11 @@ And make all the projects accessible from Rhino (change to the respective reposi
 	
 <details>
 <summary>Problems?</summary>
-<br>
 
 * If invoke is not recognized as command, first install it via pip:
 	
 	(afab) pip install invoke
 	
-<br>
 
 * You have to change to the respective repository directory in the Anaconda prompt to execute the invoke command:
 	
