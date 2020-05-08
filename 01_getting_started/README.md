@@ -78,13 +78,13 @@ And make all the projects accessible from Rhino (change to the respective reposi
 
 * If invoke is not recognized as command, first install it via pip:
 	
-	(afab) pip install invoke
+		(afab) pip install invoke
 	
 
 * You have to change to the respective repository directory in the Anaconda prompt to execute the invoke command:
 	
-	(afab) cd your_filepath_to_repository
-	(afab) invoke add-to-rhino
+		(afab) cd your_filepath_to_repository
+		(afab) invoke add-to-rhino
 
         
 	
