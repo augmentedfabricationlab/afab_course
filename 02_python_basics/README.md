@@ -211,6 +211,7 @@ negative Index
 * **unordered** mappings of stored objects by using a key-value pairing (lists store objects in **ordered** sequence, can therefore be indeced or sliced)
 * key value: allows to grab an object without knowing the index location
 * {key1:value1, key2:value2} the key itself should always be a string
+
 Definition
 ```python
 >>> my_dict = {'key1':'value1', 'key2':'value2', 'key3':'value3'} 
@@ -256,6 +257,26 @@ pink
 ('age', 22)
 ```
 ## Functions
+* for creating a clean, *repeatable* code
+* allow us to create blocks of code that can be easily executed many times
+* without needing to constantly rewrite the entire block of code
+
+Definition
+```python
+def name_of_funktion(name):
+    "
+    Docstring explains funktion
+    "
+    print("Hello" + name)
+``` 
+Example
+>>> def name_function():
+>>>     print("Hello")
+
+>>> name_function()
+Hello
+```
+
 
 ## Classes
 
