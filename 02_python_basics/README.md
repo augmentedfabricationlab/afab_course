@@ -270,6 +270,7 @@ def name_of_funktion(name):
     print("Hello" + name)
 ``` 
 Example
+```python
 >>> def name_function():
 >>>     print("Hello")
 
