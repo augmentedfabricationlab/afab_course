@@ -1,3 +1,5 @@
+hello
+
 # Python Basics
 
 [Slides](https://docs.google.com/presentation/d/18gRu0YkcW7mqnBnbwF6pWwpPwLOq62JegKYO-cR6Ae0/edit?usp=sharing)
