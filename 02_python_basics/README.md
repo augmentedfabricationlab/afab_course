@@ -208,6 +208,53 @@ negative Index
 ```
 ## Dictionaries
 
+* **unordered** mappings of stored objects by using a key-value pairing (lists store objects in **ordered** sequence, can therefore be indeced or sliced)
+* key value: allows to grab an object without knowing the index location
+* {key1:value1, key2:value2} the key itself should always be a string
+Definition
+```python
+>>> my_dict = {'key1':'value1', 'key2':'value2', 'key3':'value3'} 
+
+>>> my_dict
+{'key1': 'value1', 'key2': 'value2', 'key3':'value3'} 
+
+>>>my_dict['key1']
+'value1'
+```
+Example
+```python
+>>> prices_lookup = {'apples':2.99, 'oranges':1.89}
+
+>>>prices_lookup['apples']
+2.99
+```
+* `d.keys()`: giving all the key inputs
+```python
+>>> key = {'color': 'pink', 'age': 22}
+>>> for k in key.keys():
+>>>     print(k)
+
+color
+age
+```
+* `d.values()`: giving all the values
+```python
+>>> value = {'color': 'pink', 'age': 22}
+>>> for v in value.values():
+>>>     print(v)
+
+pink
+22
+```
+* `d.items()`: giving the pairings - (result is also a tuple as it is in ())
+```python
+>>> item = {'color': 'pink', 'age': 22}
+>>> for i in item.items():
+>>>     print(i)
+
+('color', 'pink')
+('age', 22)
+```
 ## Functions
 
 ## Classes
