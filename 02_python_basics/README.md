@@ -36,10 +36,10 @@ Operators  | Operation  | Example
 `+`| Addition | 2 + 2 = 4
 
 Examples of expressions in the interactive shell:
-
-    >>> 2 + 3 * 6
-    20
-
+```python
+>>> 2 + 3 * 6
+20
+```
 ## Variables
 
 ## Comparison Operators
@@ -286,8 +286,8 @@ Hello
 5 is in the range between 2 and 7
 ```
 When creating a function using the **def** statement, you can specify what the **return value** should be with a **return statement**. A return statement consists of the following:
-* The return keyword.
-* The value or expression that the function should return.
+* The return keyword
+* The value or expression that the function should return
 ```python
 * Write a function that computes the volume of a sphere given its radius.
 * The volume of a sphere is given as $$\frac{4}{3} πr^3$$
@@ -316,11 +316,65 @@ When creating a function using the **def** statement, you can specify what the *
 ```
 
 ## Classes
+Dataclasses are python classes but are suited for storing data objects. This module provides a decorator and functions for automatically adding generated special methods such as **__init__()** and **__repr__()** to user-defined classes.
+* Storing data and representing certain data type 
+* Comparing to other objects of the same type
 
+`self.` 
+* representing the instance of a class 
+* accessing the attributes and methods of the class in python
+
+`__init__()` 
+* A reseved method in python classes 
+* Called as constructor in object oriented terminology: Called when an object is created from a class and allows the class to initialize the attributes of the class
+```python
+>>> class Vehicle():
+>>>     def __init__(self, colour, nb_wheels, name):
+>>>         self.colour = colour
+>>>         self.nb_wheels = nb_wheels
+>>>         self.name = name
+>>> vehicle_1 = Vehicle("blue", 2, "bike")
+>>> vehicle_2 = Vehicle("red", 4, "car")
+
+>>> print("This is a " + vehicle_1.colour + " " + vehicle_1.name + " with ", vehicle_1.nb_wheels, " " + "wheels")
+This is a blue bike with  2  wheels
+>>> print("This is a " + vehicle_2.colour + " " + vehicle_2.name + " with " + str(vehicle_2.nb_wheels) + " " + "wheels")
+This is a red car with 4 wheels
+```
+```python
+>>> Find out the cost of a rectangular field with breadth(b=120), length(l=160). It costs x (2000) rupees per 1 square unit
+>>> class Rectangle:
+>>>    def __init__(self, length, breadth, unit_cost=0):
+>>>        self.length = length
+>>>        self.breadth = breadth
+>>>        self.unit_cost = unit_cost
+>>>    def get_area(self):
+>>>        return self.length * self.breadth
+>>>    def calculate_cost(self):
+>>>        area = self.get_area()
+>>>        return area * self.unit_cost
+>>> r = Rectangle(160, 120, 2000)
+>>> print("Area of Rectangle: %s sq units" % (r.get_area()))
+
+Area of Rectangle: 19200 sq units
+```
 ## Import
+* getting access to code from another module by importing file/function
 
+* import **module_name**:
+```python
+>>> import math
+>>> print(math.pi)
 
+3.141592653589793
+```
+* import **module_name.member_name**
+```python
+>>> from math import pi 
+>>> print(pi) 
 
+3.141592653589793
+```
 
 
 
