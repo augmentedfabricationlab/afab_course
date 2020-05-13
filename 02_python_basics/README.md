@@ -376,6 +376,19 @@ Area of Rectangle: 19200 sq units
 3.141592653589793
 ```
 
+* to get **COMPAS** working in Grasshopper
 
+* In Grasshopper, COMPAS is imported from within a GhPython component.
+* To verify that everything is working properly, simply create a GhPython component on your Grasshopper canvas, paste the following script and hit OK
 
+```python
+>>> import compas
 
+>>> from compas.datastructures import Mesh
+>>> from compas_ghpython.artists import MeshArtist
+>>> mesh = Mesh.from_obj(compas.get('faces.obj'))
+
+>>> artist = MeshArtist(mesh)
+
+>>> a = artist.draw_mesh()
+```
