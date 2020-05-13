@@ -277,7 +277,43 @@ Example
 >>> name_function()
 Hello
 ```
+```python
+>>> def ran_check(num,low,high):
+>>>     if num in range(low,high):
+>>>         print (f"{num} is in the range between {low} and {high}")
+        
+>>> ran_check(5,2,7)
+5 is in the range between 2 and 7
+```
+When creating a function using the **def** statement, you can specify what the **return value** should be with a **return statement**. A return statement consists of the following:
+* The return keyword.
+* The value or expression that the function should return.
+```python
+* Write a function that computes the volume of a sphere given its radius.
+* The volume of a sphere is given as $$\frac{4}{3} πr^3$$
+>>> import math
+>>> def vol(rad=5):
+>>>    V = 4/3 * math.pi* rad**3 
+>>>    return V
 
+>>> vol()
+523.5987755982989
+```
+```python
+* if word starts with a vowel, add "ay" to end
+* if word does not start with a vowel, put first letter at the end, then add "ay"
+
+>>> def pig_latin(word):
+>>>     first_letter = word[0] 
+>>>     if first_letter in "aeiou":
+>>>         pig_word = word + "ay"
+>>>     else:
+>>>         pig_word = word[1:] + first_letter + "ay"        
+>>>     return pig_word
+
+>>> pig_latin("apple")
+'appleay'
+```
 
 ## Classes
 
