@@ -79,6 +79,7 @@ If this is not working, try it manually:
 * Start Rhino and the Rhino Python Editor by typing EditPythonScript in the command line.
 * -> *Tools* -> *Options* and press the Button: *Add to search path* according to browse the folder *Assembly Information Model*
 * Select the *src* folder C:\Users\Name\Workspace\projects\assembly_information_model\src
+* Redo the same with the folder for the *UR Online Control* C:\Users\Name\Workspace\projects\ur_online_control\src
 * Restart Rhino and Grasshopper
 	
 <details>
