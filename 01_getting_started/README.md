@@ -75,6 +75,12 @@ And make all the projects accessible from Rhino (change to the respective reposi
 	(afab) cd your_filepath_to_repository
 	(afab) invoke add-to-rhino
 	
+If this is not working, try it manually:
+* Start Rhino and the Rhino Python Editor by typing EditPythonScript in the command line.
+* >Tools >Options and press the Button: Add to search path according to browse the right folder
+* Search for your *Assembly Information Model* Folder and import the *src* Folder C:\Users\Name\Workspace\projects\assembly_information_model\src
+* Restart Rhino and Grasshopper
+	
 <details>
 <summary>Problems?</summary>
 
