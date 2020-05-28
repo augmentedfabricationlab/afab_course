@@ -77,8 +77,8 @@ And make all the projects accessible from Rhino (change to the respective reposi
 	
 If this is not working, try it manually:
 * Start Rhino and the Rhino Python Editor by typing EditPythonScript in the command line.
-* -> *Tools* -> *Options* and press the Button: *Add to search path* according to browse the *Assembly Information Model* folder
-* Select the *src* Folder C:\Users\Name\Workspace\projects\assembly_information_model\src
+* -> *Tools* -> *Options* and press the Button: *Add to search path* according to browse the folder *Assembly Information Model*
+* Select the *src* folder C:\Users\Name\Workspace\projects\assembly_information_model\src
 * Restart Rhino and Grasshopper
 	
 <details>
