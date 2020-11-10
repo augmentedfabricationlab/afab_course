@@ -44,7 +44,7 @@ Then open Github Desktop and clone the following repositories into you workspace
 * [afab_course](https://github.com/augmentedfabricationlab/afab_course)
 * [assembly_information_model](https://github.com/augmentedfabricationlab/assembly_information_model)
 * [participative_fabrication](https://github.com/augmentedfabricationlab/participative_fabrication)
-* [ur_fabrication_control](https://github.com/augmentedfabricationlab/ur_fabrication_contol)
+* [ur_fabrication_control](https://github.com/augmentedfabricationlab/ur_fabrication_control)
 
 And make all the projects accessible from Rhino (change to the respective repository directory in the Anaconda prompt):
 
