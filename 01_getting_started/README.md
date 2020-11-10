@@ -6,21 +6,31 @@
 
 Execute the commands below in Anaconda Prompt:
 	
-	(base) conda config --add channels conda-forge
-	(base) conda create -n afab python=3.8 compas=0.15.6 --yes
+    (base) conda config --add channels conda-forge
 
-Then continue with activating the environment and [setting it up for Rhino/GH]((https://compas-dev.github.io/main/gettingstarted/cad/rhino.html)):
-	
-	(base) conda activate afab
-	(afab) python -m compas_rhino.install -v 6.0 -p compas compas_ghpython compas_rhino
+#### Windows
+    (base) conda create -n afab20 python=3.8 compas_fab=0.13 --yes
+    (base) conda activate afab20
+
+#### Mac
+    (base) conda create -n afab20 python=3.8 compas_fab=0.13 python.app --yes
+    (base) conda activate afab20
     
-To verify your installation, type the commands below:
 
-	(afab) python
-	>>> import compas
-	>>> compas.__version__
-	'0.15.6'
-	>>> exit()
+### Verify Installation
+
+    (afab20) pip show compas_fab
+###
+    Name: compas-fab
+    Version: 0.13.1
+    Summary: Robotic fabrication package for the COMPAS Framework
+    ...
+
+### Install on Rhino
+
+    (afab20) python -m compas_rhino.install
+
+NOTE: This installs to Rhino 6.0, use `-v 5.0` if needed.
 
 
 ### 2. Installation of Dependencies
@@ -34,7 +44,7 @@ Then open Github Desktop and clone the following repositories into you workspace
 * [afab_course](https://github.com/augmentedfabricationlab/afab_course)
 * [assembly_information_model](https://github.com/augmentedfabricationlab/assembly_information_model)
 * [participative_fabrication](https://github.com/augmentedfabricationlab/participative_fabrication)
-* [ur_online_control](https://github.com/augmentedfabricationlab/ur_online_control)
+* [ur_fabrication_control](https://github.com/augmentedfabricationlab/ur_fabrication_contol)
 
 And make all the projects accessible from Rhino (change to the respective repository directory in the Anaconda prompt):
 
@@ -67,7 +77,7 @@ If this is not working, try it manually:
 	
 Make the assembly_information_model repository accessible for your environment 	
 	
-	(afab) pip install your_filepath_to_assembly_information_model 
+	(afab) pip install -e your_filepath_to_assembly_information_model 
 	
 
 
