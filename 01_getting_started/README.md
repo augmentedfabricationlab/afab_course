@@ -22,40 +22,6 @@ To verify your installation, type the commands below:
 	'0.15.6'
 	>>> exit()
 
-### 2. Setting up Jupyter and extensions
-
-Install jupyter and extensions for the afab environment:
-
-    (afab) conda install jupyter rise pythreejs jupyter_contrib_nbextensions jupyter_nbextensions_configurator --yes
-
-To run the jupyter notebook, you simply have to type:
-
-    (afab) jupyter notebook
-
-in your command line.
-
-<details>
-<summary>Jupyter extensions activation</summary>
-<br>
-After installing, you can observe a new tab Nbextensions added to the menu (last entry under "Edit"), in which you can activate the extensions.
-</details>
-
-<details>
-<summary>Jupyter workspace configuration</summary>
-<br>
-To configure the workspace, type
-
-    (afab) jupyter notebook --generate-config
-
-This writes a default configuration file into:
-
-`%HOMEPATH%\.jupyter\jupyter_notebook_config.py` (on windows)
-
-If you want jupyter to open in a different directory, then change the following line:
-
-    c.NotebookApp.notebook_dir = 'YOUR_PREFERRED_PATH'
-    
-</details>
 
 ### 2. Installation of Dependencies
 
@@ -67,7 +33,7 @@ Then open Github Desktop and clone the following repositories into you workspace
 
 * [afab_course](https://github.com/augmentedfabricationlab/afab_course)
 * [assembly_information_model](https://github.com/augmentedfabricationlab/assembly_information_model)
-* [climate_active_bricks](https://github.com/augmentedfabricationlab/climate_active_bricks)
+* [participative_fabrication](https://github.com/augmentedfabricationlab/participative_fabrication)
 * [ur_online_control](https://github.com/augmentedfabricationlab/ur_online_control)
 
 And make all the projects accessible from Rhino (change to the respective repository directory in the Anaconda prompt):
@@ -103,20 +69,6 @@ Make the assembly_information_model repository accessible for your environment
 	
 	(afab) pip install your_filepath_to_assembly_information_model 
 	
-Other dependencies
-	
-	(afab) conda install shapely
-
-<details>
-<summary>conda help</summary>
-
-Init conda for the powershell
-
-	(afab) conda init
-	(afab) conda init powershell
-	
-</details>
-
 
 
 	
