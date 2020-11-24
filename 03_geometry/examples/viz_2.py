@@ -1,10 +1,10 @@
 from random import random
-from compas.geometry import pointcloud_xy
+from compas.geometry import Pointcloud
 from compas_plotters import Plotter
 from compas.utilities import i_to_green
 from compas.utilities import i_to_red
 
-cloud = pointcloud_xy(20, (0, 10), (0, 5))
+cloud = Pointcloud.from_bounds(10, 5, 0, 20)
 
 points = []
 for xyz in cloud:

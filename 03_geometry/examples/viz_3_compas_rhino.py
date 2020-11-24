@@ -1,20 +1,21 @@
 from random import random
-from compas.geometry import pointcloud_xy
+from compas.geometry import Pointcloud
+from compas.geometry import Point, Circle, Plane
 from compas.utilities import i_to_green
 from compas.utilities import i_to_red
-import compas_rhino
+from compas_rhino.artists import PointArtist, CircleArtist
 
-cloud = pointcloud_xy(200, (0, 10), (0, 5))
+cloud = Pointcloud.from_bounds(10, 5, 0, 50)
 
-points = []
-circles = []
-for xyz in cloud:
+for point in cloud:
     n = random()
-    points.append({'pos': xyz, 'color': i_to_red(n)})
-    circles.append({'plane': [xyz, [0,0,1]], 'color': i_to_red(n), 'radius':n})
+    
+    PointArtist(point, color=i_to_red(n), layer="points").draw()
+    
+    
+    radius = n
+    plane = Plane([0, 0, 0], [0, 0, 1])
+    circle = Circle(plane, radius)
+    circle.center = point
 
-layerp = "points"
-layerc = "circles"
-
-compas_rhino.draw_points(points, layer=layerp, clear=True)
-compas_rhino.draw_circles(circles, layer=layerp, clear=False)
+    CircleArtist(circle, color=i_to_red(n), layer="circles").draw()
