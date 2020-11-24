@@ -1,6 +1,6 @@
 <img src="images/00_logo.jpg" width="400px" a/><br>
 
-# Seminar Basics of Robotic Fabrication
+# Robotic Fabrication in Architecture
 
 ## Description
 
