@@ -33,7 +33,7 @@ Sessions  | Title | Description | Links
 2 | [Python basics](02_python_basics/README.md) | Quick start on Python | [Slides](https://docs.google.com/presentation/d/18gRu0YkcW7mqnBnbwF6pWwpPwLOq62JegKYO-cR6Ae0/edit?usp=sharing) [Assignment](https://github.com/augmentedfabricationlab/afab_course/blob/master/02_python_basics/assignment/README.md)
 3 | Geometry | COMPAS geometry | [Slides](https://docs.google.com/presentation/d/1aoN78Ly8McjeRaG414YK4fPjcLpvn5u9GgkAujSx8SI/edit?usp=sharing) [Assignment](https://github.com/augmentedfabricationlab/afab_course/blob/master/03_geometry/README.md)
 4 | Data Structures | COMPAS data structures | [Slides](https://docs.google.com/presentation/d/1lLZmPMTqK4SVfKCVItVMwb3bHDyXTBluC7GhKJmNO2Y/edit?usp=sharing) [Assignment](https://github.com/augmentedfabricationlab/afab_course/blob/master/04_datastructures/README.md)
-5 | Assembly Information Model | Assembly and Element data structures and algorithms | Slides Assignment
+5 | Assembly Information Model | Assembly and Element data structures and algorithms | [Slides](https://docs.google.com/presentation/d/1rXTslh8fVgjFRxr7739p7Wf8vgQDeIMN1i4R6JHdN4M/edit?usp=sharing) Assignment
 6 | Robotic Fabrication | Robotic assembly process, simulation and control | [Slides](https://docs.google.com/presentation/d/1uU1wpNhsG5pKYr2AMUS5BF6eVqqh5COFh0Z_BSU295o/edit?usp=sharing) Assignment
 
 
