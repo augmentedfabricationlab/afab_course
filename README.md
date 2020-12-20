@@ -47,8 +47,8 @@ Sessions  | Title | Description | Links
 
 ## Dependencies
 
+* [COMPAS](https://compas-dev.github.io/)
 * [COMPAS FAB](https://gramaziokohler.github.io/compas_fab/latest/) <!-- * [compas_fab](https://compas-dev.github.io/) -->
-* [Afab Course](https://github.com/augmentedfabricationlab/afab_course)
 * [Assembly Information Model](https://github.com/augmentedfabricationlab/assembly_information_model)
 * [UR Fabrication Control](https://github.com/augmentedfabricationlab/ur_fabrication_control)
 
