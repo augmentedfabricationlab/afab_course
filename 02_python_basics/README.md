@@ -2,7 +2,7 @@
 
 [Slides](https://docs.google.com/presentation/d/18gRu0YkcW7mqnBnbwF6pWwpPwLOq62JegKYO-cR6Ae0/edit?usp=sharing)
 
-### Helpful links:
+### Useful links:
 
 * [Python Cheat Sheet](https://www.pythoncheatsheet.org/)
 * [Rhino Python](https://developer.rhino3d.com/guides/rhinopython/)
