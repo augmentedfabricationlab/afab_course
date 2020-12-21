@@ -60,7 +60,8 @@ Then open Github Desktop and clone the following repositories into you workspace
 
 
 
-<b> Voilà! You can now go to VS Code, Rhino or Grasshopper to run the example files! <\b> 
+
+#### <b> Voilà! You can now go to VS Code, Rhino or Grasshopper to run the example files! <\b> 
 	
 
 
