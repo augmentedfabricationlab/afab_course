@@ -30,7 +30,9 @@ Execute the commands below in Anaconda Prompt:
 
     (afab_course) python -m compas_rhino.install
 
-NOTE: This installs to Rhino 6.0, use `-v 5.0` if needed.
+NOTE: This installs to Rhino 6.0, use `-v 5.0` or `-v 7.0` if you have different Rhino version.
+
+    (afab_course) python -m compas_rhino.install -v 7.0
 
 
 ### 2. Installation of Dependencies
