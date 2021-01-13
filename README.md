@@ -40,7 +40,7 @@ Sessions  | Title | Description | Links
 ## Requirements
 
 * Windows 10 Professional
-* Rhino 6 / Grasshopper
+* Rhino 6 or 7 / Grasshopper
 * [Anaconda Python](https://www.anaconda.com/distribution/?gclid=CjwKCAjwo9rtBRAdEiwA_WXcFoyH8v3m-gVC55J6YzR0HpgB8R-PwM-FClIIR1bIPYZXsBtbPRfJ8xoC6HsQAvD_BwE)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Github Desktop](https://desktop.github.com/)
